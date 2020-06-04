@@ -21,6 +21,8 @@ function App() {
             }
             .e-Pdf_Export:before{
               content: '\\e240';
+              color: red;
+              font-size: 30px
             }
             `
   return (
