@@ -10,6 +10,8 @@ function App() {
             var icons = `
             .e-search:before {
                 content:'\\e993';
+                font-size: 30px;
+                background-color: red;
             }
             .e-upload:before {
                 content: '\\e725';
