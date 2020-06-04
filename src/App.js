@@ -3,7 +3,7 @@ import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
 import './App.css';
 
 function App() {
-  var iconList = ['e-search', 'e-upload', 'e-font'];
+  var iconList = ['e-search', 'e-upload', 'e-font', 'e-Pdf_Export'];
         const listItems = iconList.map((icon, index) =>
             <li><span className={`e-icons ${icon}`} key={index}></span></li>
             );
@@ -18,6 +18,9 @@ function App() {
             }
             .e-font:before {
                 content: '\\e34c';
+            }
+            .e-Pdf_Export:before{
+              content: '\\e240';
             }
             `
   return (
